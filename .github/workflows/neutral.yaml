@@ -4,20 +4,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  neutral_example:
+  neutral_job:
     runs-on: ubuntu-latest
 
     steps:
       - name: Set neutral conclusion
-        run: echo "::set-output name=CONCLUSION::neutral"
-
-      - name: Print message
-        run: echo "This workflow intentionally has a neutral conclusion."
-
-  check_conclusion:
-    needs: neutral_example
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check conclusion
-        run: echo "Conclusion was ${{ needs.neutral_example.outputs.CONCLUSION }}"
+        run: echo "neutral" >> $GITHUB_STATE
