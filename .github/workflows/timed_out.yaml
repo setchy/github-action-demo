@@ -1,10 +1,10 @@
-name: Sleep Action
+name: Demo Time Out Action
 
 on:
   workflow_dispatch:
 
 jobs:
-  sleep:
+  demo:
     runs-on: ubuntu-latest
 
     steps:

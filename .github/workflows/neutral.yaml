@@ -1,10 +1,10 @@
-name: Neutral Outcome Example
+name: Demo Neutral Action
 
 on:
   workflow_dispatch:
 
 jobs:
-  neutral_job:
+  demo:
     runs-on: ubuntu-latest
 
     steps:

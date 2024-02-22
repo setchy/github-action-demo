@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  fail_job:
+  demo:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Explicitly Fail
         run: exit 1

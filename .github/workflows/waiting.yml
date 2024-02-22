@@ -1,16 +1,13 @@
-name: Ask for approval before run
+name: Demo Approval Workflow
 
 on:
   workflow_dispatch:
 
 jobs:
-  build:
+  demo:
     runs-on: ubuntu-latest
     environment: demo-environment
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Echo Hello
-      run: echo "Approved workflow completed"
+      - name: Echo Hello
+        run: echo "Approved workflow completed"
