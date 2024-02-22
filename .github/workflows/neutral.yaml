@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: Set neutral conclusion
-        run: echo "neutral" >> $GITHUB_STATE
+        run: exit 78
