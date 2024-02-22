@@ -1,0 +1,12 @@
+name: Sleep Action
+
+on:
+  workflow_dispatch:
+
+jobs:
+  sleep:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Sleep for 6.5 hrs
+        run: sleep 23400 # 23400 seconds = 6.5 hours
