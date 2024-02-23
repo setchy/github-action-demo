@@ -6,7 +6,8 @@ on:
 jobs:
   demo:
     runs-on: ubuntu-latest
+    timeout-minutes: 1
 
     steps:
-      - name: Sleep for 6.5 hrs
-        run: sleep 23400 # 23400 seconds = 6.5 hours
+      - name: Sleep
+        run: sleep 120 # 120 seconds = 2 minutes
