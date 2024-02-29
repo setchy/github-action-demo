@@ -4,7 +4,7 @@ This repository is used as a sandbox for development and testing [gitify-app/git
 
 ## Scenarios
 
-The following scenarios are to be covered:
+The following scenarios are to be covered
 
 - Issues
 - Pull Requests
